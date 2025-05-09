@@ -1,25 +1,25 @@
 body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh; /* Устанавливает высоту тела документа на 100% высоты видимой области (viewport) */
+    display: flex; /* Использует Flexbox для выравнивания содержимого */
+    align-items: center; /* Выравнивает содержимое по вертикали по центру */
+    justify-content: center; /* Выравнивает содержимое по горизонтали по центру */
 }
 
 input[type="button"] {
-    padding: 10px 20px;
-    font-size: 25px;
-    margin: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgb(0, 255, 0);
-    cursor: pointer;
-    transition: 0.5s;
+    padding: 10px 20px; /* Устанавливает внутренние отступы (10px сверху и снизу, 20px слева и справа) для кнопок */
+    font-size: 25px; /* Устанавливает размер шрифта для текста на кнопках */
+    margin: 5px; /* Устанавливает внешний отступ (5px) вокруг кнопок */
+    border: 2px solid black; /* Устанавливает черную рамку толщиной 2px вокруг кнопок */
+    border-radius: 10px; /* Закругляет углы кнопок с радиусом 10px */
+    background-color: rgb(0, 255, 0); /* Устанавливает фоновый цвет кнопок на ярко-зеленый */
+    cursor: pointer; /* Изменяет курсор на указатель при наведении на кнопки */
+    transition: 0.5s; /* Устанавливает плавный переход для всех изменяемых свойств за 0.5 секунды */
 }
 
 #off {
-    background-color: red;
+    background-color: red; /* Устанавливает фоновый цвет кнопки с id "off" на красный */
 }
 
 input[type="button"]:active {
-    transform: scale(0.9);
+    transform: scale(0.9); /* Уменьшает размер кнопки до 90% при нажатии на нее */
 }
