@@ -1,18 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Определяет тип документа как HTML5 -->
+
+<html lang="en"> <!-- Начало HTML-документа с указанием языка (английский) -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Switch</title>
+    <meta charset="UTF-8"> <!-- Устанавливает кодировку документа на UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Указывает браузеру использовать режим совместимости с IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Настройки для адаптивного дизайна на мобильных устройствах -->
+    <link rel="stylesheet" href="style.css"> <!-- Подключает внешний файл стилей (CSS) -->
+    <title>Switch</title> <!-- Устанавливает заголовок страницы, который отображается на вкладке браузера -->
 </head>
+
 <body>
-    <div class="content">
-        <img id="bulb" src="bulb-off.png" alt=""> <br><br>
-        <input type="button" onclick="myfunon()" id="on" value="ON">
-        <input type="button" onclick="myfunoff()" id="off" value="OFF">
+
+    <div class="content"> <!-- Создает контейнер для содержимого страницы -->
+        <img id="bulb" src="bulb-off.png" alt=""> <!-- Изображение лампочки, изначально выключенной (bulb-off.png) -->
+        <br><br> <!-- Добавляет два разрыва строки для отступа -->
+        <input type="button" onclick="myfunon()" id="on" value="ON"> <!-- Кнопка для включения лампочки, вызывает функцию myfunon() при нажатии -->
+        <input type="button" onclick="myfunoff()" id="off" value="OFF"> <!-- Кнопка для выключения лампочки, вызывает функцию myfunoff() при нажатии -->
     </div>
-    <script src="script.js"></script>
+    
+    <script src="script.js"></script> <!-- Подключает внешний файл JavaScript (script.js) -->
 </body>
+
 </html>
